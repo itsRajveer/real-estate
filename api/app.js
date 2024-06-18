@@ -16,7 +16,7 @@ app.use("/api/auth", authRouter);
 app.use("/api/test", testRouter);
 
 app.get("/",(req,res)=>{
-    res.send("node ki ma ki chut")
+    res.send("Server is Running")
 })
 
 app.listen(8800, ()=>{
